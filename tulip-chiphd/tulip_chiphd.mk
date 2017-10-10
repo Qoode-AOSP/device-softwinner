@@ -39,6 +39,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     service.adb.tcp.port=5555
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.media_vol_steps=42
+
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_AAPT_CONFIG := mdpi large xlarge

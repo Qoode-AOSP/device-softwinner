@@ -22,10 +22,14 @@
 // SERVICE_CLASS:0x1A (Bit17 -Networking,Bit19 - Capturing,Bit20 -Object Transfer)
 // MAJOR CLASS: COMPUTER
 // MINOR CLASS: TABLET
-#define BTA_DM_COD {0x1A, 0x01, 0x1C}
+//#define BTA_DM_COD {0x1A, 0x01, 0x1C}
+#define BTA_DM_COD {0x7A, 0x04, 0x1C} // more capabilities
 
 #define BTA_GATT_DEBUG FALSE
 
+//Enable A2DP sink
+#define BTA_AV_SINK_INCLUDED TRUE
+#define USE_AUDIO_TRACK TRUE
 
 #define HCI_MAX_SIMUL_CMDS (1)
 #define BTM_BLE_SCAN_SLOW_INT_1 (160)
