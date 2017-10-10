@@ -29,6 +29,7 @@ on early-fs
 on fs
     insmod /system/vendor/modules/disp.ko
 	  insmod /system/vendor/modules/sunxi_tr.ko
+    insmod /system/vendor/modules/gt9xxf_ts.ko
     insmod /system/vendor/modules/hdmi.ko
     insmod /system/vendor/modules/hdmi_cec.ko
 
